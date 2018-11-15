@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emotion_picsActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <view
+        android:id="@+id/scenario1_pic"
+        class="android.support.constraint.Placeholder"
+        id="@+id/view2"
+        android:layout_width="178dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/scenario2_pic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <view
+        android:id="@+id/scenario2_pic"
+        class="android.support.constraint.Placeholder"
+        id="@+id/view2"
+        android:layout_width="178dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/scenario3_pic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <view
+        android:id="@+id/scenario3_pic"
+        class="android.support.constraint.Placeholder"
+        id="@+id/view2"
+        android:layout_width="178dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/senario1_text"
+        android:layout_width="93dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Scenario 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scenario1_pic"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/scenario2_text"
+        android:layout_width="97dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Scenario 2"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scenario3_text"
+        app:layout_constraintStart_toEndOf="@+id/senario1_text"
+        app:layout_constraintTop_toBottomOf="@+id/scenario2_pic"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/scenario3_text"
+        android:layout_width="93dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="60dp"
+
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="8dp"
+        android:text="Scenario 3"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scenario3_pic"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="259dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="When people are "
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/scenario1_pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scenario3_text"
+        app:layout_constraintVertical_bias="0.428" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

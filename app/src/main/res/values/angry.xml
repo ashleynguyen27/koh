@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">angry</string>
+    <string name="def">definition of angry</string>
+    <string name="pic_location">\res\drawable\nameOfFile</string>
+    <string name="scenario1_location">\res\drawable\nameOfFile1</string>
+    <string name="scenario2_location">\res\drawable\nameOffile2</string>
+    <string name="scenario3_location">\res\drawable\nameOfFile3</string>
+    <string name="video_location">\res\drawable\nameOfFile4</string>
+    <string name="video_des">Description of the video</string>
+</resources>

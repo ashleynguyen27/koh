@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    tools:context=".EmotionsActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:text="Select an emotion"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/happy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:width="180dp"
+        android:height="102dp"
+        android:text="HAPPY"
+        android:background="@color/yellow"
+        android:textSize="18dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/jealous_button"
+        app:layout_constraintEnd_toStartOf="@+id/jealous_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/jealous_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:width="180dp"
+        android:height="102dp"
+        android:text="JEALOUS"
+        android:background="@color/green"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/scared_button"
+        app:layout_constraintEnd_toStartOf="@+id/angry_button"
+        app:layout_constraintStart_toEndOf="@+id/happy_button" />
+
+    <Button
+        android:id="@+id/sad_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:width="180dp"
+        android:height="102dp"
+        android:text="SAD"
+        android:background="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/scared_button"
+        app:layout_constraintEnd_toStartOf="@+id/scared_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/scared_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:width="180dp"
+        android:height="102dp"
+        android:text="SCARED"
+        android:background="@color/purple"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/anxious_button"
+        app:layout_constraintStart_toEndOf="@+id/sad_button" />
+
+    <Button
+        android:id="@+id/angry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:width="180dp"
+        android:height="102dp"
+        android:text="ANGRY"
+        android:background="@color/red"
+        android:textSize="18dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/jealous_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jealous_button" />
+
+    <Button
+        android:id="@+id/anxious_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:width="180dp"
+        android:height="102dp"
+        android:text="ANXIOUS"
+        android:background="@color/orange"
+        android:textSize="18dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/scared_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/scared_button" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+    <!--colors of the splash page-->
+    <color name="colorPrimary">#E0F7FA</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#455A64</color>
+
+    <!--miscelaneous-->
+    <color name="white">#FFFFFF</color>
+
+    <!--color from emotion buttons-->
+    <color name="yellow">#FFE082</color>
+    <color name="green">#80CBC4</color>
+    <color name="red">#EF9A9A</color>
+    <color name="blue">#90CAF9</color>
+    <color name="purple">#9FA8DA</color>
+    <color name="orange">#FFCC80</color>
 </resources>
