@@ -47,7 +47,7 @@
         android:layout_marginTop="61dp"
         android:layout_marginBottom="16dp"
         android:text="What does being blank mean?"
-        android:textsize="100dp"
+        android:textSize="100dp"
         app:layout_constraintBottom_toTopOf="@+id/emotion_pic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

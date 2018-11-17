@@ -8,10 +8,9 @@
     tools:layout_editor_absoluteY="25dp">
 
 
-    <view
+    <View
         android:id="@+id/scenario1_pic"
         class="android.support.constraint.Placeholder"
-        id="@+id/view2"
         android:layout_width="178dp"
         android:layout_height="113dp"
         android:layout_marginStart="8dp"
@@ -23,10 +22,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <view
+    <View
         android:id="@+id/scenario2_pic"
         class="android.support.constraint.Placeholder"
-        id="@+id/view2"
         android:layout_width="178dp"
         android:layout_height="113dp"
         android:layout_marginTop="120dp"
@@ -35,10 +33,9 @@
         app:layout_constraintEnd_toStartOf="@+id/scenario3_pic"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <view
+    <View
         android:id="@+id/scenario3_pic"
         class="android.support.constraint.Placeholder"
-        id="@+id/view2"
         android:layout_width="178dp"
         android:layout_height="113dp"
         android:layout_marginTop="120dp"
@@ -134,9 +131,6 @@
         app:layout_constraintTop_toBottomOf="@+id/scenario3_text"
         app:layout_constraintVertical_bias="0.428" />
 
-    </LinearLayout>
-
-</LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>
