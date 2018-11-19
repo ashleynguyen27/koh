@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">koh</string>
+
+    <string name="emotion_def">blank definition</string>
+    <string name="happy_def">Happiness is a positive emotion filled with pleasure and joy. It makes you feel good.</string>
+    <string name="happy_des">The video shows what happy looks like </string>
+    <string name="happy_scenario1">You feel excited</string>
+    <string name="happy_scenario2">You feel good</string>
+    <string name="happy_scenario3">You want to smile</string>
+
+    <string name="emotion_pic"></string>
+    <string name="emotion_picheader">Blank header</string>
+
 </resources>
