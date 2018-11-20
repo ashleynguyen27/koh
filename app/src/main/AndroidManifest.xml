@@ -34,6 +34,9 @@
             android:value=".HomeActivity" />
         </activity>
         <activity android:name=".Game1Activity" android:screenOrientation="landscape"/>
+        <activity android:name=".Game2Activity" android:screenOrientation="landscape"/>
+        <activity android:name=".Game3Activity" android:screenOrientation="landscape"/>
+        <activity android:name=".CongratsActivity" android:screenOrientation="landscape"/>
 
     </application>
 

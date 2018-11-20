@@ -6,21 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Game1Activity extends AppCompatActivity {
+public class Game2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game1);
+        setContentView(R.layout.activity_game2);
     }
 
-    public void wrongAnswer(View view) {
-        TextView textView = findViewById(R.id.message1);
+    public void wrongAnswer2(View view) {
+        TextView textView = findViewById(R.id.message2);
         textView.setText("Try again!");
     }
 
-    public void rightAnswer(View view) {
-        Intent intent = new Intent(this, Game2Activity.class);
+    public void rightAnswer2(View view) {
+        Intent intent = new Intent(this, Game3Activity.class);
         intent.putExtra("GAME_1", "");
         startActivity(intent);
     }

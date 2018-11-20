@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Game1Activity">
+    tools:context=".Game3Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,11 +13,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/prompt1"
+            android:id="@+id/prompt3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Which image represents happiness?"
-            android:textSize="16sp" />
+            android:text="Which image represents happiness?" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,21 +31,21 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageLeft1"
+                    android:id="@+id/imageLeft3"
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="false"
-                    app:srcCompat="@drawable/happy_scenario1" />
+                    app:srcCompat="@drawable/sad_scenario2" />
 
                 <Button
-                    android:id="@+id/buttonLeft1"
+                    android:id="@+id/buttonLeft3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"
-                    android:onClick="rightAnswer"
+                    android:onClick="wrongAnswer3"
                     android:text="left" />
 
             </LinearLayout>
@@ -58,27 +57,27 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageRight1"
+                    android:id="@+id/imageRight3"
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
                     android:layout_marginLeft="8dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/sad_scenario1" />
+                    app:srcCompat="@drawable/happy_scenario3" />
 
                 <Button
-                    android:id="@+id/buttonRight1"
+                    android:id="@+id/buttonRight3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"
-                    android:onClick="wrongAnswer"
+                    android:onClick="rightAnswer3"
                     android:text="right" />
             </LinearLayout>
 
         </LinearLayout>
 
         <TextView
-            android:id="@+id/message1"
+            android:id="@+id/message3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
