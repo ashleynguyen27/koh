@@ -33,12 +33,7 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".HomeActivity" />
         </activity>
-        <activity android:name=".Game1Activity" android:screenOrientation="landscape"
-            android:parentActivityName=".GamesActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".GamesActivity" />
-        </activity>
+        <activity android:name=".Game1Activity" android:screenOrientation="landscape"/>
 
     </application>
 
