@@ -18,12 +18,12 @@
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:src="@drawable/learn" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginTop="8dp"
             android:text="Learn about an emotion through text, images and pictures. Test your understanding with a quiz at the end." />
 
@@ -32,8 +32,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryDark"
             android:onClick="viewEmotions"
-            android:text="Learn about emotions" />
+            android:text="Learn about emotions"
+            android:textColor="@color/white" />
     </LinearLayout>
 
     <LinearLayout
@@ -48,12 +50,12 @@
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@mipmap/ic_launcher" />
+            app:srcCompat="@drawable/games" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="64dp"
             android:layout_marginTop="8dp"
             android:text="Select from a variety of interactive games and quizzes to test your understanding about emotions." />
 
@@ -62,8 +64,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryDark"
             android:onClick="viewGames"
-            android:text="Play games" />
+            android:text="Play games"
+            android:textColor="@color/white" />
     </LinearLayout>
 
 </LinearLayout>
