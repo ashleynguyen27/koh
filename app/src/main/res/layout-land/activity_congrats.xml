@@ -42,14 +42,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
                 android:onClick="moreGames"
-                android:text="play more games" />
+                android:text="play more games"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@color/colorPrimary"
                 android:onClick="backToHome"
                 android:text="back to home" />
         </LinearLayout>

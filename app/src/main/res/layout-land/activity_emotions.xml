@@ -11,10 +11,11 @@
         android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="25dp"
-        android:layout_margin="16dp"
+        android:layout_margin="24dp"
         android:layout_marginStart="16dp"
-        android:text="Select an emotion"
+        android:text="Which emotion do you want to learn about? "
         android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     tools:layout_editor_absoluteX="16dp"
