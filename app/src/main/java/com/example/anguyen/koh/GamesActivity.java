@@ -13,9 +13,22 @@ public class GamesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_games);
     }
 
-    public void playGame(View view) {
+    public void playGameHappy(View view) {
         Intent intent = new Intent(this, Game1Activity.class);
-        intent.putExtra("GAME_1", "");
+        intent.putExtra("emotion", "happy");
         startActivity(intent);
     }
+
+    public void playGameSad(View view) {
+        Intent intent = new Intent(this, Game1Activity.class);
+        intent.putExtra("emotion", "sad");
+        startActivity(intent);
+    }
+
+    public void playGameWorried(View view) {
+        Intent intent = new Intent(this, Game1Activity.class);
+        intent.putExtra("emotion", "worried");
+        startActivity(intent);
+    }
+
 }
