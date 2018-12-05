@@ -8,36 +8,42 @@
     <string name="happy_scenario1">You feel excited</string>
     <string name="happy_scenario2">You feel good</string>
     <string name="happy_scenario3">You want to smile</string>
+    <string name="happy_pair">jealous</string>
 
     <string name="jealous_def">Jealousy is a negative emotion making you envy other people\'s achievements and advantages. </string>
     <string name="jealous_des">The video shows what jealousy looks like. Look at </string>
     <string name="jealous_scenario1">You lose attention</string>
     <string name="jealous_scenario2">You want what someone else has</string>
     <string name="jealous_scenario3">You want someone\'s attention</string>
+    <string name="jealous_pair">angry</string>
 
     <string name="angry_def">Being angry is when you are feeling or showing great annoyance or displeasure</string>
     <string name="angry_des">The video shows what anger looks like. Look at </string>
     <string name="angry_scenario1">You feel upset at someone</string>
     <string name="angry_scenario2">You feel heated inside</string>
     <string name="angry_scenario3">You don\'t like something</string>
+    <string name="angry_pair">sad</string>
 
     <string name="sad_def">Sadness is an emotional pain associated with, or characterized by, feelings of disadvantage, loss, despair, grief, helplessness, disappointment and sorrow.</string>
     <string name="sad_des">The video shows what sadness looks like </string>
     <string name="sad_scenario1">Your chest feels heavy</string>
     <string name="sad_scenario2">You may feel like crying</string>
     <string name="sad_scenario3">Something unexpected happens</string>
+    <string name="sad_pair">scared</string>
 
     <string name="scared_def">When you are scared you feel like something bad is going to happen. </string>
     <string name="scared_des">The video shows what being scared looks like </string>
     <string name="scared_scenario1">You are afraid.</string>
     <string name="scared_scenario2">You may want to cover your eyes</string>
     <string name="scared_scenario3">You may cry</string>
+    <string name="scared_pair">worried</string>
 
     <string name="worried_def">Anxiety is an emotion that makes you feel very uneasy causing you to worry.</string>
     <string name="worried_des">The video shows what being worried looks like </string>
     <string name="worried_scenario1">You feel uneasy</string>
     <string name="worried_scenario2">You feel nervous</string>
     <string name="worried_scenario3">You have a stomach ache</string>
+    <string name="worried_pair">happy</string>
 
     <string name="emotion_pic"></string>
     <string name="emotion_picheader">Blank header</string>
