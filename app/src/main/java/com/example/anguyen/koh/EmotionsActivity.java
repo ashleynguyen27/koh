@@ -3,7 +3,6 @@ package com.example.anguyen.koh;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.view.View;
 import android.widget.Button;
 
@@ -81,8 +80,8 @@ public class EmotionsActivity extends AppCompatActivity {
         });
 
 
-        Button worriedButton = (Button) findViewById(R.id.anxious_button);
-        angryButton.setOnClickListener(new View.OnClickListener() {
+        Button worriedButton = (Button) findViewById(R.id.worried_button);
+        worriedButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {

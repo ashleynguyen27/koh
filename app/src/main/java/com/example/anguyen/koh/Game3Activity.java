@@ -12,6 +12,10 @@ public class Game3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game3);
+        String emotion = getIntent().getStringExtra("emotion");
+
+        TextView headerView = (TextView) findViewById(R.id.prompt3);
+        headerView.setText("What image best represents being " + emotion + "?");
     }
 
     public void wrongAnswer3(View view) {
@@ -21,7 +25,7 @@ public class Game3Activity extends AppCompatActivity {
 
     public void rightAnswer3(View view) {
         Intent intent = new Intent(this, CongratsActivity.class);
-        intent.putExtra("GAME_1", "");
+        intent.putExtra("emotion", getIntent().getStringExtra("emotion"));
         startActivity(intent);
     }
 }
