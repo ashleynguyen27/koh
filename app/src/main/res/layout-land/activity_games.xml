@@ -39,10 +39,10 @@
                     <ImageView
                         android:id="@+id/imageView2"
                         android:layout_width="320dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
                         android:adjustViewBounds="true"
-                        android:cropToPadding="false"
-                        app:srcCompat="@drawable/happy_game" />
+                        android:background="@drawable/placeholder"
+                        android:cropToPadding="false" />
 
                     <TextView
                         android:id="@+id/textView6"
@@ -51,18 +51,18 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="16dp"
-                        android:text="Happiness Game"
+                        android:text="Matching Game"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="4dp"
-                        android:text="Test your understanding of happiness! Select the images that are happy." />
+                        android:text="Match the emotions to the facial expressions!" />
 
                     <Button
                         android:id="@+id/button3"
@@ -70,11 +70,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginRight="8dp"
-                        android:layout_marginTop="8dp"
-                        android:background="@color/colorPrimaryDark"
+                        android:layout_marginTop="16dp"
                         android:onClick="playGame"
-                        android:text="Play"
-                        android:textColor="@color/white" />
+                        android:text="Play" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -86,14 +84,14 @@
                     <ImageView
                         android:id="@+id/imageView6"
                         android:layout_width="320dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
                         android:adjustViewBounds="true"
-                        android:cropToPadding="false"
-                        app:srcCompat="@drawable/matching_game" />
+                        android:background="@drawable/placeholder"
+                        android:cropToPadding="false" />
 
                     <TextView
                         android:id="@+id/textView10"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
@@ -104,12 +102,12 @@
 
                     <TextView
                         android:id="@+id/textView11"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="4dp"
-                        android:text="Choose the matching emotion for each of the images displayed!" />
+                        android:text="Match the emotions to the facial expressions!" />
 
                     <Button
                         android:id="@+id/button5"
@@ -117,25 +115,23 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginRight="8dp"
-                        android:layout_marginTop="8dp"
-                        android:background="@color/colorPrimaryDark"
-                        android:text="Play"
-                        android:textColor="@color/white" />
+                        android:layout_marginTop="16dp"
+                        android:text="Play" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:background="@android:drawable/dialog_holo_light_frame"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="300dp"
-                        android:layout_height="100dp"
+                        android:layout_width="320dp"
+                        android:layout_height="120dp"
                         android:adjustViewBounds="true"
-                        android:cropToPadding="false"
-                        app:srcCompat="@drawable/sad_game" />
+                        android:background="@drawable/placeholder"
+                        android:cropToPadding="false" />
 
                     <TextView
                         android:id="@+id/textView10"
@@ -144,18 +140,18 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="16dp"
-                        android:text="Sadness Game"
+                        android:text="Matching Game"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView11"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:layout_marginTop="4dp"
-                        android:text="Test your understanding of sadness! Select the images that are sad." />
+                        android:text="Match the emotions to the facial expressions!" />
 
                     <Button
                         android:id="@+id/button5"
@@ -163,10 +159,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
                         android:layout_marginRight="8dp"
-                        android:layout_marginTop="8dp"
-                        android:background="@color/colorPrimaryDark"
-                        android:text="Play"
-                        android:textColor="@color/white" />
+                        android:layout_marginTop="16dp"
+                        android:text="Play" />
                 </LinearLayout>
 
             </LinearLayout>
